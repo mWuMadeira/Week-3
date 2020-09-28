@@ -4,8 +4,16 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 class Superlab {
     public static void main(String[] args) {
+        /*
+        Mary !!
+        This is awesome work! You worked super hard on this and 
+        performed admirably. Only suggestion is to make sure you let
+        me know where your lab is! It was very hard to find.
+        Regardless, you should be proud of this...proper programming!
+
+        */
         try {
-            File artistFile = new File("/Users/Mary/Desktop/Mod1Labs/MaryWuSuperLab/resources/artistList.txt");
+            File artistFile = new File("C:\\Users\\Peter Wallace Local\\Downloads\\artistList.txt");
             //  this line will read in an integer which represents the number of lines & size of my arrays
             Scanner myReader = new Scanner (artistFile);
             int numArtists = myReader.nextInt();
